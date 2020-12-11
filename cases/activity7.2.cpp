@@ -25,8 +25,10 @@ int main(){
     int f=0;
     while(f<20)
     {
-       cout << fib[f] << ", ";
-       f++;
+        
+        cout << fib[f];
+        (f==(20-1))? cout << " ...\n" : cout << ", ";
+        f++;
     }
     
 
